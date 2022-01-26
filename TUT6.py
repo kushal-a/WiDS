@@ -32,6 +32,7 @@ def plot(constellation):
     lums_n = (.0025/np.min(lums))*lums
 
     plt.scatter(X,Y,s=lums_n)
+    plt.title(constellation)
     plt.show()
 
 def get_map(constellation):
@@ -123,7 +124,3 @@ for constellation in list_items[5:93]:
 
     all_X.append(X)
     all_Y.append(Y)
-
-
-
-plot(constellation_names[0])
