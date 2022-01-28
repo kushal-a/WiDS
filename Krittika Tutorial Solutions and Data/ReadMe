@@ -1,0 +1,4 @@
+Apart from the input data uploaded 3 fits files must be in the same folder as the code files for some of the files to work. The names of these are
+Messier3.fits
+Messier3.proc.fits
+Messier3_transient.proc.fits
