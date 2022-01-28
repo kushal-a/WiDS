@@ -1,0 +1,3 @@
+select kepler_name,radius from planet where
+radius between 1 and 3 and
+kepler_name is not null
